@@ -1,0 +1,817 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+	text-decoration: none;
+	list-style: none;
+}
+
+header{
+	width: 100%;
+	top: 0;
+	right: 0;
+	z-index: 1000;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background: transparent;
+	padding: 10px;
+	transition: all .50s ease;
+}
+
+.logo{
+	display: flex;
+	align-items: center;
+    color: #000;
+}
+
+.logo i{
+	color: var(--main-color);
+	font-size: 28px;
+	margin-right: 3px;
+}
+
+.logo span{
+	color: var(--text-color);
+	font-size: 1.7rem;
+	font-weight: 600;
+}
+
+.navbar{
+	display: flex;
+}
+
+.navbar a{
+	color: var(--text-color);
+	font-size: 1.1rem;
+	font-weight: 500;
+	padding: 5px 0;
+	margin: 0px 30px;
+	transition: all .50s ease;
+}
+
+.navbar a:hover{
+	color: var(--main-color);
+}
+
+.navbar a.active{
+	color: var(--main-color);
+}
+.main{
+	display: flex;
+	align-items: center;
+}
+
+.main a{
+	margin-right: 25px;
+	margin-left: 10px;
+	color: var(--text-color);
+	font-size: 1.1rem;
+	font-weight: 500;
+	transition: all .50s ease;
+}
+
+.user{
+	display: flex;
+	align-items: center;
+}
+
+.user i{
+	color: var(--main-color);
+	font-size: 28px;
+	margin-right: 7px;
+}
+
+.main a:hover{
+	color: var(--main-color);
+}
+
+#menu-icon{
+	font-size: 35px;
+	cursor: pointer;
+	z-index: 10001;
+	display: none;
+}
+
+.bannar{
+    
+    background-image: url(../asete/banner/banner.jpg);
+    width: 100%;
+    height: 90vh;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.bannat-title{
+    position: absolute;
+    width: 612px;
+    height: 210px;
+    left: 100px;
+    top: 170px;
+    font-family: 'ITC Avant Garde Gothic Std';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 70px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+
+.industry{
+    margin-top: 100px;
+}
+.smart{
+    display: flex; 
+	justify-content: space-around;
+    margin: 0 auto;
+    width: 80%;
+    height: 614px;
+    left: 392px;
+    top: 1105px;
+}
+
+.smart-details p{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+    color: #EC2232;
+    margin-left: 100px;
+}
+.smart-details h2{
+    font-family: 'ITC Avant Garde Gothic Std';
+    font-style: normal;
+    font-weight: bold;
+	font-size: 55px;
+    color: #222222;
+    width: 450px;
+    margin-left: 100px;
+}
+.smart-omnis{
+    width: 428px;
+    height: 137px;
+    font-family: 'ITC Avant Garde Gothic Std';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 29px;
+    color: #000000;
+    margin-top: 140px;
+}
+.count-aria{
+	margin-left: 10%;
+	display: flex;
+}
+.review-count{
+	margin-left: 20%;
+    display: flex;
+    text-align: center;
+}
+
+.count{
+height: 70px;
+left: 462px;
+top: 1585px;
+font-style: normal;
+font-weight: 600;
+font-size: 100px;
+line-height: 50px;
+letter-spacing: -0.02em;
+color: #222222;
+margin-top: -200px;
+}
+.count-plush{
+    color: #EC2232;
+    font-weight: 300;
+}
+.review-count h6{
+    font-weight: 500;
+    font-size: 20px;
+    color: #222222;
+}
+/*=========== card banner ========*/
+.card{
+background: #F9F9F9;
+
+}
+.card{
+position: relative;
+}
+.card-banner{
+   
+    background-image: url(../asete/banner/Mask\ group.png);
+    width: 100%;
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.site-main-item{
+	padding: 100px 0px 0px 600px;
+}
+.site-main-item p{
+	font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+    color: #EC2232;
+}
+.site-main-item h1{
+	font-size: 50px;
+	font-weight: 500;
+
+}
+.direction{
+   text-align:center;
+   margin-top: -50px;
+}
+.direction .btn{
+    font-family: cursive;
+    font-weight: bold;
+    background-color: #ffffff44;
+    border:none;
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    transition: 0.5s;
+    margin:0 10px;
+}
+.direction .btn:hover{
+    background-color: #ffffff;
+}
+.item{
+    border-radius: 15px;
+    width:300px;
+    height:500px;
+    background-image: linear-gradient(to top, #ffffff, #ECECF2);
+    overflow: hidden;
+    transition: 0.5s;
+    margin:10px;
+    scroll-snap-align: start;
+}
+.item .avatar{
+    display: block;
+    width: 100%;
+    height: 389px;
+    object-fit: cover;
+    
+}
+.item .content{
+    padding:30px;
+    font-family: monospace;
+}
+.item .content table td{
+    padding:10px 0;
+    border-bottom: 1px solid #AEC0CE;
+}
+.item .content table td:nth-child(2){
+    text-align: right;
+}
+.item .nameGroup{
+    text-align: center;
+    border-bottom:none!important;
+}
+#list{
+    display: flex;
+    width:max-content;
+   
+}
+#formList{
+    width:1280px;
+    max-width: 100%;
+	padding-left: 150px;
+    overflow: auto;
+    margin:100px auto 50px;
+    scroll-behavior: smooth;
+    scroll-snap-type: both;
+}
+#formList::-webkit-scrollbar{
+    display: none;
+}
+
+/*=========== World Class start ===============*/
+.world{
+    background-image: url(../asete/banner/unsplash.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.6;
+}
+
+.machine{
+    padding: 100px;
+}
+.machine p{
+    width: 500px;
+    font-family: 'ITC Avant Garde Gothic Std';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+.machine h2{
+    width: 600px;
+height: 170px;
+left: 388px;
+top: 4869px;
+font-style: normal;
+font-weight: 500;
+font-size: 70px;
+line-height: 85px;
+
+letter-spacing: -0.02em;
+
+color: #FFFFFF;
+}
+
+.customer{
+    display: flex;
+    width: 700px;
+    justify-content: space-between;
+    margin-left: 100px;
+    color: #FFFFFF;
+}
+.machine-logo img{
+    width: 50px;
+    color: #efefef;
+}
+.machine-logo h2{
+    font-weight: 500;
+    font-size: 42.1214px;
+}
+
+/*=========== industry    ==========*/
+
+.industry-box{
+    padding: 250px 0;
+    margin-left: 196px;
+}
+
+
+.industry-text{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ind{
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: -2%;
+}
+
+.our-site{
+   margin:10px auto 50px;
+}
+.our-site p{
+    margin-left: 45px;
+}
+
+.industry-main{
+    display: flex;
+}
+.our-industry{
+    border-left: 2px solid #f6c8c4;;
+}
+.industry-card{
+    display: flex;
+  
+}
+.text{
+
+	color: #000;
+	line-height: 40px;
+	-webkit-text-fill-color: transparent;
+	-webkit-text-stroke-width: 1px;
+	-webkit-clip-path: polygon(0 0, 100% 0, 100% 57%, 0 57%);
+	clip-path: polygon(0 0, 100% 0, 100% 57%, 0 57%);
+}
+.card-icon{
+    display: flex;
+}
+.card-icon img{
+    width: 80px;
+    height: 80px;
+}
+.num{
+    width: 50px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    color: #f6c8c4;
+}
+
+.card-text{
+    margin-left: 10px;
+}
+.card-text h3{
+    font-size: 30px;
+    font-weight: 600;
+}
+.card-text p{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.r-card{
+    margin-left: 15px;
+}
+
+.medel{
+    margin: 100px 0px;
+}
+/* =======end======== */
+
+.company{
+    padding: 100px;
+}
+.company p{
+    text-align: center;
+    color: #EC2232;
+    margin-bottom: 50px;
+}
+.compani{
+    display: flex;
+   justify-content: space-between;
+   text-align: center;
+}
+
+.compani img{
+    width: 150px;
+    height: 50px;
+}
+
+/*========== Contact Start =============*/
+.contact-wrap {
+	display: flex;
+	flex-wrap: wrap;
+    height: 90vh;
+    left: 0px;
+
+}
+.input-filed{
+    margin-top: 50px;
+    text-align: center;
+    
+}
+
+.contact-in {
+    
+	width: 50%;
+    background: #0E3466;
+}
+
+
+
+.contact-in h1 {
+	font-size: 24px;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+
+.contact-in h2 {
+	font-size: 20px;
+	font-weight: 400;
+	margin-bottom: 15px;
+}
+
+.contact-in h2 i {
+	font-size: 16px;
+	width: 40px;
+	height: 40px;
+	margin-right: 10px;
+	background: #f5f5f5;
+	color: #000;
+	border-radius: 50px;
+	line-height: 40px;
+	text-align: center;
+}
+
+.contact-in p {
+	font-size: 14px;
+	font-weight: 300;
+	margin-bottom: 20px;
+}
+
+.contact-in ul {
+	padding: 0;
+	margin: 0;
+}
+
+.contact-in ul li {
+	list-style: none;
+	display: inline-block;
+	margin-right: 5px;
+	margin-top: 5px;
+}
+
+.contact-in ul li a {
+	display: block;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	background: #fff;
+	border-radius: 50px;
+}
+
+.contact-in ul li a i {
+	font-size: 14px;
+	line-height: 30px;
+	color: #000;
+}
+
+.contact-in form {
+	width: 100%;
+	height: auto;
+}
+
+.contact-in-input {
+	width: 50%;
+	height: 40px;
+	margin-bottom: 20px;
+	outline: none;
+	padding-left: 5px;
+	background: #FFFFFF;
+    border-radius: 10px;
+	font-size: 12px;
+	font-weight: 300;
+	font-family: 'Poppins', sans-serif;
+}
+
+.contact-in-textarea {
+	width: 50%;
+	height: 140px;
+	margin-bottom: 20px;
+    border-radius: 10px;
+	outline: none;
+	padding-top: 5px;
+	padding-left: 5px;
+	background:#FFFFFF;
+	font-size: 12px;
+	font-weight: 300;
+	font-family: 'Poppins', sans-serif;
+}
+
+.contact-in-btn {
+	height: 40px;
+	outline: none;
+	color: #fff;
+	font-size: 12px;
+	font-weight: 300;
+	font-family: 'Poppins', sans-serif;
+	cursor: pointer;
+    width: 130px;
+    background: #EC2232;
+    border-radius: 40.2445px;
+}
+
+.contact-in iframe {
+	width: 100%;
+	height: 100%;
+}
+
+
+/*========== Contact end =============*/
+
+/*=========== footer start ================*/
+
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background: #181818;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 30%;
+   padding: 0 15px;
+}
+.footers-col{
+    width: 40%;
+   padding: 0 15px;
+}
+.footers-col ul{
+    display: flex;
+}
+.footers-col ul .sugars{
+    margin-left: 35px;
+}
+
+.footer-col h4{
+	font-size: 24px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 28px;
+	font-weight: 500;
+	position: relative;
+}
+.footers-col h4{
+	font-size: 24px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 28px;
+	font-weight: 500;
+	position: relative;
+}
+
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footers-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 20px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 400;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footers-col ul li a{
+	font-size: 20px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 400;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footers-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+/*responsive*/
+
+/* ----------------------
+tablet devices 
+------------------------*/
+@media only screen and (min-width:688px) and (max-width:992px){}
+
+/* ----mobile devices --------------*/
+@media only screen and (min-width:360px) and (max-width:687px){
+
+.bannar{
+	height: 24vh;
+}
+.navbar{
+	display: none;
+}
+
+.bannat-title{
+	font-size: 18px;
+	left: 14px;
+	width:280px;
+}
+.industry {
+    margin-top: 29px;
+}
+.smart{
+	display: block;
+	height: 360px;
+}
+.smart-details p {
+	margin-left: 5px;
+}
+.smart-details h2{
+	width: 280px;
+	font-size: 35px;
+	margin-left: 5px;
+}
+.smart-omnis {
+	margin-top: 10px;
+	width: 280px;
+}
+.count{
+	display: none;
+}
+.site-main-item{
+	margin-left: 22px;
+	padding: 10px;
+}
+.site-main-item h1{
+	font-size: 25px;
+}
+#formList {
+    max-width: 100%;
+    padding-left: 10px;
+    margin: 50px auto 39px;
+}
+.text{
+	display: none;
+}
+.industry-box {
+    padding: 210px 0;
+    margin-left: 28px;
+}
+.h-logo{
+	display: none;
+}
+.ind {
+    font-size: 42px;
+    line-height: 49px;
+}
+.our-site p {
+    margin-left: 0px;
+}
+.industry-main {
+    display: block;
+}
+.card-text p {
+	width: 250px;
+	font-style: 15px;
+}
+.num{
+	display: none;
+}
+.mar{
+	margin-top: 10px;
+}
+.card-icon img {
+    width: 50px;
+    height: 50px;
+}
+.machine {
+    padding: 28px;
+}
+.machine h2{
+	width: 285px;
+	font-size: 21px;
+    line-height: 40px;
+}
+.machine p{
+	width: 285px;
+	line-height: 17px;
+}
+.customer{
+	display: none;
+}
+.world {
+	height: 38vh;
+}
+.company{
+	display: none;
+}
+.none{
+	display: none;
+}
+.contact-in {
+    width: 100%;
+}
+.contact-wrap{
+	height: 70vh;
+}
+.row{
+	display: block;
+}
+.social-links{
+	display: flex;
+}
+.footer-col {
+    width: 100%;
+}
+
+}
